@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f1f1f1;
+  }
+
+  
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  section {
+    border: 1px solid #ccc;
+    padding: 2em;
+    margin-bottom: 1em;
+  }
+  
+  section#about {
+    display: flex;
+    background-image: url("la-cod-de-ac.png");
+  }
+
+  
+  
+  section#about img {
+
+     filter: grayscale(100%);
+     border-radius: 25%;
+     max-width: 200px;
+     max-height: 200px; 
+     width: 200px;
+     height: auto;
+     margin-right: 1em;
+    /* padding:1em;*/
+     border: 2px solid rgb(65, 53, 53);
+     float: left;
+     box-shadow: 10px 5px 5px black
+  }
+  
+  section h2 {
+    margin-top: 5px;
+    margin-left: px;
+    
+  }
+
+  section#about h2{
+    color: aliceblue;
+    align-self: flex-start;
+    width: 80%;
+    
+}
+
+section#about p{
+    color: aliceblue;
+    width: 80%;
+    font-size: 200%;
+    text-shadow: 2px 1px 2px blue;
+
+}
+
+  
+
+  section p {
+    margin-top: 100px;
+  }
+  
+  section#experience .project {
+    margin-bottom: 1em;
+  }
+  
+  section#skills li {
+    list-style-type: none;
+    
+    
+  }
+
+  section#skills img {
+    
+    margin-left: 30%;
+    box-shadow: 10px 5px 5px black
+  }
+
+  section#skills {
+    display: flex;
+
+  }
+
+  section#contact {
+    display: flex;
+    border-color: black;
+  }
+
+  section#contact img{
+    margin-left: 30%;
+    box-shadow: 10px 5px 5px black
+  }
+  
+  footer {
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 1em;
+    text-align: center;
+  }
