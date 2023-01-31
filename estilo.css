@@ -37,6 +37,7 @@ body {
   section#about {
     display: flex;
     background-image: url("la-cod-de-ac.png");
+    box-shadow: 10px 5px 5px black
   }
 
   
@@ -60,6 +61,15 @@ body {
     margin-top: 5px;
     margin-left: px;
     
+  }
+
+  section#experience{
+    border-color: black;
+    box-shadow: 10px 5px 5px black
+  }
+
+  section#experience h2{
+    text-decoration: underline;
   }
 
   section#about h2{
@@ -101,12 +111,17 @@ section#about p{
 
   section#skills {
     display: flex;
+    border-color: black;
+    box-shadow: 10px 5px 5px black
 
   }
+
+  
 
   section#contact {
     display: flex;
     border-color: black;
+    box-shadow: 10px 5px 5px black
   }
 
   section#contact img{
@@ -119,4 +134,5 @@ section#about p{
     color: #f1f1f1;
     padding: 1em;
     text-align: center;
+    box-shadow: 10px 5px 5px black
   }
