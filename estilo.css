@@ -13,9 +13,14 @@ body {
     color: #f1f1f1;
     padding: 1em;
   }
+
+  
+
+ 
   
   header h1 {
     margin: 0;
+    margin-right: 10%;
   }
   
   header nav a {
@@ -99,8 +104,10 @@ section#about p{
   
   section#skills li {
     list-style-type: none;
-    
-    
+  }
+
+  section#skills div{
+    box-shadow: 5px 2px 2px black
   }
 
   section#skills img {
