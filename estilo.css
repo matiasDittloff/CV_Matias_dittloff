@@ -80,13 +80,13 @@ body {
   section#about h2{
     color: aliceblue;
     align-self: flex-start;
-    width: 80%;
+    width: 20%;
     
 }
 
 section#about p{
     color: aliceblue;
-    width: 80%;
+    width: 20%;
     font-size: 200%;
     text-shadow: 2px 1px 2px blue;
 
